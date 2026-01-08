@@ -170,11 +170,18 @@ hr {
     align-items: center;
   }
 
-  .article-container {
+  .article-container-1 {
     width: 85vw;
     display: flex;
     justify-content: space-evenly;
     justify-self: center;
+  }
+
+  .article-container-2 {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .main-article {
